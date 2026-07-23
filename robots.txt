@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: /apps/bidhaan/feed.xml

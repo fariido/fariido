@@ -1,0 +1,189 @@
+/* Fariido — shared site stylesheet.
+   Restrained editorial design: copper, charcoal, paper, coastal-blue.
+   No external fonts, no JS, no trackers. */
+
+:root {
+  --charcoal: #2b2724;
+  --charcoal-soft: #4a433d;
+  --paper: #f4efe6;
+  --paper-dim: #e9e0d0;
+  --copper: #a8632f;
+  --copper-dark: #7a4722;
+  --coastal-blue: #12556b;
+  --coastal-blue-dark: #0b3d4c;
+  --border: #d9cdb6;
+  --max-width: 42rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--charcoal);
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+header, main, footer, nav, section {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.site-header, .site-footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.wordmark {
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--copper-dark);
+  margin: 0;
+}
+
+main {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Iowan Old Style", serif;
+  color: var(--charcoal);
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+
+.hero .lede {
+  font-size: 1.1rem;
+  color: var(--charcoal-soft);
+  max-width: 38rem;
+}
+
+a {
+  color: var(--coastal-blue-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+a:hover, a:focus {
+  color: var(--copper-dark);
+}
+
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--coastal-blue);
+  outline-offset: 2px;
+}
+
+.app-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.app-list li:last-child {
+  border-bottom: none;
+}
+
+.app-desc {
+  display: block;
+  color: var(--charcoal-soft);
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+
+nav[aria-label="feeds"], nav[aria-label="archive navigation"] {
+  color: var(--charcoal-soft);
+  font-size: 0.95rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  color: var(--charcoal-soft);
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  background: var(--paper-dim);
+}
+
+pre {
+  background: var(--paper-dim);
+  border: 1px solid var(--border);
+  padding: 1rem;
+  overflow-x: auto;
+  font-size: 0.85rem;
+}
+
+code {
+  background: var(--paper-dim);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+}
+
+.site-footer {
+  color: var(--charcoal-soft);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --charcoal: #ece5d8;
+    --charcoal-soft: #cabfa9;
+    --paper: #1e1b18;
+    --paper-dim: #2a2521;
+    --copper: #d68e57;
+    --copper-dark: #e3a670;
+    --coastal-blue: #5fa9c2;
+    --coastal-blue-dark: #7dc0d6;
+    --border: #4a433d;
+  }
+}

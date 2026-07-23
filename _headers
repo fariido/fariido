@@ -1,0 +1,36 @@
+# Cloudflare Pages headers file.
+# Security headers apply site-wide; caching is tuned per surface below —
+# dated Bidhaan artwork is treated as immutable once published, while
+# latest.webp, feed.xml, index.json and the /latest/ redirect must revalidate
+# quickly since they change on every publish.
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: interest-cohort=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'
+
+# Default caching for HTML across the site: short, must revalidate.
+/*
+  Cache-Control: public, max-age=60, must-revalidate
+
+# Dated Bidhaan artwork never changes once published — safe to cache for a
+# very long time. More specific than the site-wide default above, and
+# declared later, so it overrides the Cache-Control for this path.
+/images/bidhaan/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# latest.webp is overwritten on every publish — must revalidate quickly,
+# overriding the immutable rule above for this one exact path.
+/images/bidhaan/latest.webp
+  Cache-Control: public, max-age=60, must-revalidate
+
+/apps/bidhaan/latest/*
+  Cache-Control: public, max-age=60, must-revalidate
+
+/apps/bidhaan/feed.xml
+  Cache-Control: public, max-age=300, must-revalidate
+
+/apps/bidhaan/index.json
+  Cache-Control: public, max-age=60, must-revalidate
