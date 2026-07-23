@@ -1,7 +1,15 @@
 {
   "archive_route": "/apps/bidhaan/",
-  "editions": [],
-  "generated_at": "2026-07-23T18:18:32Z",
+  "editions": [
+    {
+      "date": "2026-07-19",
+      "evidence_mode": "standard",
+      "image_url": "/images/bidhaan/2026/07/19.webp",
+      "title": "Cross-border developments across Djibouti & Ethiopia & Kenya & Somalia & Sudan",
+      "url": "/apps/bidhaan/2026/07/19/"
+    }
+  ],
+  "generated_at": "2026-07-23T20:50:37Z",
   "latest_route": "/apps/bidhaan/latest/",
   "skill_version": "0.2.7",
   "version": 1

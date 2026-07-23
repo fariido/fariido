@@ -1,0 +1,109 @@
+{
+  "coverage_summary": {
+    "countries_represented": [
+      "Djibouti",
+      "Ethiopia",
+      "Kenya",
+      "Somalia",
+      "Sudan"
+    ],
+    "editorial_shortage_notes": [
+      "Full coverage today."
+    ],
+    "missing_countries": [],
+    "mode": "standard",
+    "usable_story_count": 11
+  },
+  "date": "2026-07-19",
+  "evidence_mode": "standard",
+  "force_summaries": [
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Djibouti",
+        "Ethiopia",
+        "Kenya",
+        "Somalia",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "0c7f3c86476b4792",
+        "1cf6a5c4c8eb07d3",
+        "9b2354f3d6a7e71b",
+        "f5ddd35619cf0911",
+        "fa6ef0f62e032f5d",
+        "0d52772fa601359c"
+      ],
+      "force_id": "fallback-other-regional-1",
+      "label": "Cross-border developments across Djibouti & Ethiopia & Kenya & Somalia & Sudan",
+      "scope": "regional"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "fa6ef0f62e032f5d",
+        "4a8169deb6e300ea",
+        "c7913ad32521b78c",
+        "85a5d1330df739a5"
+      ],
+      "force_id": "fallback-other-national-2",
+      "label": "Somalia: notable developments",
+      "scope": "national"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Kenya"
+      ],
+      "evidence_story_ids": [
+        "0c7f3c86476b4792",
+        "0d52772fa601359c",
+        "e3a7030409219da9"
+      ],
+      "force_id": "fallback-other-national-3",
+      "label": "Kenya: notable developments",
+      "scope": "national"
+    },
+    {
+      "confidence": "constrained",
+      "countries": [
+        "Ethiopia"
+      ],
+      "evidence_story_ids": [
+        "f5ddd35619cf0911",
+        "ae9e8b838e8d2ce3"
+      ],
+      "force_id": "fallback-other-national-4",
+      "label": "Ethiopia: notable developments",
+      "scope": "national"
+    },
+    {
+      "confidence": "constrained",
+      "countries": [
+        "Djibouti"
+      ],
+      "evidence_story_ids": [
+        "9b2354f3d6a7e71b"
+      ],
+      "force_id": "fallback-other-localized-5",
+      "label": "Djibouti: notable developments",
+      "scope": "localized"
+    }
+  ],
+  "generated_at": "2026-07-23T20:50:27Z",
+  "image_model_alias": "openai/gpt-image-2 (oauth)",
+  "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
+  "motifs_used": [
+    "broken_grid"
+  ],
+  "published_at": null,
+  "revision": 0,
+  "skill_version": "0.2.7",
+  "snapshot_hash": "e4f88c8a1f91f5411d480af1d13193b5de131757c5c3ee4ddcd50283fa174c9a",
+  "text_model_alias": "openai/gpt-5.6-sol (oauth)",
+  "theme_source": "deterministic_fallback",
+  "visual_source": "cloud"
+}
