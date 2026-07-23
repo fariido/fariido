@@ -2,14 +2,35 @@
   "archive_route": "/apps/bidhaan/",
   "editions": [
     {
-      "date": "2026-07-19",
+      "date": "2026-07-23",
       "evidence_mode": "standard",
-      "image_url": "/images/bidhaan/2026/07/19.webp",
-      "title": "Cross-border developments across Djibouti & Ethiopia & Kenya & Somalia & Sudan",
-      "url": "/apps/bidhaan/2026/07/19/"
+      "image_url": "/images/bidhaan/2026/07/23.webp",
+      "title": "Contested institutional pathways",
+      "url": "/apps/bidhaan/2026/07/23/"
+    },
+    {
+      "date": "2026-07-22",
+      "evidence_mode": "standard",
+      "image_url": "/images/bidhaan/2026/07/22.webp",
+      "title": "Dialogue and coalition bargaining within formal politics",
+      "url": "/apps/bidhaan/2026/07/22/"
+    },
+    {
+      "date": "2026-07-21",
+      "evidence_mode": "standard",
+      "image_url": "/images/bidhaan/2026/07/21.webp",
+      "title": "Negotiated space around contested public questions",
+      "url": "/apps/bidhaan/2026/07/21/"
+    },
+    {
+      "date": "2026-07-20",
+      "evidence_mode": "limited",
+      "image_url": "/images/bidhaan/2026/07/20.webp",
+      "title": "Commercial gateways under negotiated pressure",
+      "url": "/apps/bidhaan/2026/07/20/"
     }
   ],
-  "generated_at": "2026-07-23T22:44:53Z",
+  "generated_at": "2026-07-23T22:48:19Z",
   "latest_route": "/apps/bidhaan/latest/",
   "skill_version": "0.2.8",
   "version": 1

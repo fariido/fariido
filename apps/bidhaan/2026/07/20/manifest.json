@@ -1,0 +1,80 @@
+{
+  "coverage_summary": {
+    "countries_represented": [
+      "Djibouti",
+      "Ethiopia",
+      "Kenya",
+      "Somalia"
+    ],
+    "editorial_shortage_notes": [
+      "Sudan had 0 usable candidates in the frozen editorial packet. Atar Network: WARNING, retrieval and parsing succeeded but zero current usable articles. Dabanga: WARNING, retrieval and parsing succeeded but zero current usable articles. The New Humanitarian: WARNING, retrieval and parsing succeeded but zero current usable articles. For Somalia conflict items, casualty and battlefield claims are attributed to official sources where noted and were not independently confirmed in the packet."
+    ],
+    "missing_countries": [
+      "Sudan"
+    ],
+    "mode": "limited",
+    "usable_story_count": 20
+  },
+  "date": "2026-07-20",
+  "evidence_mode": "limited",
+  "force_summaries": [
+    {
+      "confidence": "high",
+      "countries": [
+        "Djibouti",
+        "Kenya",
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "8a79960bda6a110a",
+        "918924545bd7b70f",
+        "493c4b035cb5480d"
+      ],
+      "force_id": "negotiated-gateways",
+      "label": "Commercial gateways under negotiated pressure",
+      "scope": "regional"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Ethiopia"
+      ],
+      "evidence_story_ids": [
+        "e1842a3dbe92bf6a",
+        "ab130ef543443c6f"
+      ],
+      "force_id": "traceable-city-finance",
+      "label": "Traceability in city finance",
+      "scope": "localized"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Djibouti",
+        "Ethiopia",
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "8cf9a5946f141733",
+        "56f6dcbb96f03ffe",
+        "8e63ff419b456eb1"
+      ],
+      "force_id": "external-dialogue-channels",
+      "label": "Dialogue moving through external channels",
+      "scope": "regional"
+    }
+  ],
+  "generated_at": "2026-07-21T01:46:31Z",
+  "image_model_alias": "openai/gpt-image-2 (oauth)",
+  "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
+  "motifs_used": [
+    "balance_form"
+  ],
+  "published_at": null,
+  "revision": 0,
+  "skill_version": "0.2.5",
+  "snapshot_hash": "d213d9f6c78697feb65bed57ea3eaf889df436c848ac275f1ae0684889f9de5e",
+  "text_model_alias": "openai/gpt-5.6-sol (oauth)",
+  "theme_source": "model",
+  "visual_source": "cloud"
+}
