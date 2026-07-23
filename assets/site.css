@@ -45,6 +45,18 @@ header, main, footer, nav, section {
   padding-bottom: 1.5rem;
 }
 
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.site-logo {
+  border: none;
+  background: none;
+  flex-shrink: 0;
+}
+
 .wordmark {
   font-weight: bold;
   letter-spacing: 0.03em;
