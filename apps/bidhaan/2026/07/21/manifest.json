@@ -1,0 +1,111 @@
+{
+  "coverage_summary": {
+    "countries_represented": [
+      "Djibouti",
+      "Ethiopia",
+      "Kenya",
+      "Somalia",
+      "Sudan"
+    ],
+    "editorial_shortage_notes": [
+      "Ethiopia fell short of the five-item editorial target, with three usable developments today: Addis Fortune returned zero usable articles in the collection window, and most of Ethiopian News Agency's remaining output was either generic wire content unrelated to Ethiopia (e.g., a China industrial-output item) or thin official statements without concrete news, both excluded rather than used as padding. Sudan met its target but relied on a narrow supplier base \u2014 all five Sudan items are from Atar Network, since Dabanga and The New Humanitarian both returned zero usable articles today. Four of Djibouti's five items are from La Nation, the state paper, as other Djibouti sources' output today was mostly ceremonial or duplicate coverage of one youth culture festival. Somalia's state wire, SONNA, again returned no usable articles, consistent with its recent pattern; Somalia's other four sources comfortably covered the country's quota."
+    ],
+    "missing_countries": [],
+    "mode": "standard",
+    "usable_story_count": 23
+  },
+  "date": "2026-07-21",
+  "evidence_mode": "standard",
+  "force_summaries": [
+    {
+      "confidence": "high",
+      "countries": [
+        "Ethiopia",
+        "Somalia",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "2fc767ff3d0cab0b",
+        "4b73da6a0b456de4",
+        "201479a9994642b0"
+      ],
+      "force_id": "negotiated-space",
+      "label": "Negotiated space around contested public questions",
+      "scope": "regional"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Somalia",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "7acf6a472ad4723a",
+        "6a2b1c14171eddc6"
+      ],
+      "force_id": "force-and-dispersal",
+      "label": "Security pressure between concentration and dispersal",
+      "scope": "regional"
+    },
+    {
+      "confidence": "high",
+      "countries": [
+        "Djibouti",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "2e6445f49d4aeba4",
+        "b6b3b55255f1bcd5"
+      ],
+      "force_id": "exposed-health",
+      "label": "Environmental exposure and strained health protection",
+      "scope": "regional"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Djibouti",
+        "Kenya",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "d5df6cf2d4b0a935",
+        "fa41655afb19a645",
+        "681c38fdf0b50e74",
+        "9c0e8fcdfe78a8e9"
+      ],
+      "force_id": "uneven-capital",
+      "label": "Uneven movement between livelihoods, recovery and capital",
+      "scope": "multi_country"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Djibouti",
+        "Ethiopia",
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "b5558f2aff6a777f",
+        "e625f3a248e69f5f",
+        "54e7f7a0a61c355d"
+      ],
+      "force_id": "diplomatic-channels",
+      "label": "Parallel channels of regional diplomacy",
+      "scope": "regional"
+    }
+  ],
+  "generated_at": "2026-07-23T19:08:03Z",
+  "image_model_alias": "openai/gpt-image-2 (oauth)",
+  "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
+  "motifs_used": [
+    "bridge"
+  ],
+  "published_at": null,
+  "revision": 0,
+  "skill_version": "0.2.7",
+  "snapshot_hash": "3fbc3d801b4175a5b46a98622314121dcd1610adcff7785e249a75780e1ef0d1",
+  "text_model_alias": "openai/gpt-5.6-sol (oauth)",
+  "theme_source": "model",
+  "visual_source": "cloud"
+}
