@@ -93,16 +93,16 @@
       "scope": "localized"
     }
   ],
-  "generated_at": "2026-07-24T09:45:59Z",
+  "generated_at": "2026-07-24T09:47:23Z",
   "image_model_alias": "openai/gpt-image-2 (oauth)",
   "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
   "motifs_used": [
-    "fracture_line"
+    "woven_threshold"
   ],
   "published_at": null,
   "revision": 0,
   "skill_version": "0.2.9",
-  "snapshot_hash": "2fce4f6dd06b9a6739adc644395c59f223b5cdb460c2543d55cf15906c0546bf",
+  "snapshot_hash": "61acf63e747f0cce4844c21f5f9c68c536b6d6d45c641761d0046543ea835fa9",
   "text_model_alias": "openai/gpt-5.6-sol (oauth)",
   "theme_source": "deterministic_fallback",
   "visual_source": "cloud"
