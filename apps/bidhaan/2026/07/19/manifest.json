@@ -23,86 +23,83 @@
         "Djibouti",
         "Ethiopia",
         "Kenya",
-        "Somalia",
-        "Sudan"
+        "Somalia"
       ],
       "evidence_story_ids": [
-        "0c7f3c86476b4792",
-        "1cf6a5c4c8eb07d3",
-        "9b2354f3d6a7e71b",
-        "f5ddd35619cf0911",
-        "fa6ef0f62e032f5d",
-        "0d52772fa601359c"
+        "bd5165904a0d0628",
+        "cff215e66b1e4897",
+        "7f28c8f82fc0eb6f",
+        "ff52c4005d7326fb"
       ],
-      "force_id": "fallback-other-regional-1",
-      "label": "Cross-border developments across Djibouti & Ethiopia & Kenya & Somalia & Sudan",
+      "force_id": "fallback-government-regional-1",
+      "label": "Institutional pressure across Djibouti & Ethiopia & Kenya & Somalia",
       "scope": "regional"
     },
     {
       "confidence": "moderate",
       "countries": [
+        "Ethiopia",
+        "Kenya",
         "Somalia"
       ],
       "evidence_story_ids": [
-        "fa6ef0f62e032f5d",
-        "4a8169deb6e300ea",
-        "c7913ad32521b78c",
-        "85a5d1330df739a5"
+        "c20666bfbf6751b2",
+        "6bb063f6334fd929",
+        "ddc57ee9a7eae6ba"
       ],
-      "force_id": "fallback-other-national-2",
-      "label": "Somalia: notable developments",
-      "scope": "national"
-    },
-    {
-      "confidence": "moderate",
-      "countries": [
-        "Kenya"
-      ],
-      "evidence_story_ids": [
-        "0c7f3c86476b4792",
-        "0d52772fa601359c",
-        "e3a7030409219da9"
-      ],
-      "force_id": "fallback-other-national-3",
-      "label": "Kenya: notable developments",
-      "scope": "national"
+      "force_id": "fallback-other-regional-2",
+      "label": "Cross-border developments across Ethiopia & Kenya & Somalia",
+      "scope": "regional"
     },
     {
       "confidence": "constrained",
       "countries": [
-        "Ethiopia"
+        "Kenya",
+        "Somalia"
       ],
       "evidence_story_ids": [
-        "f5ddd35619cf0911",
-        "ae9e8b838e8d2ce3"
+        "46c02d77840a469c",
+        "05b0022d751b4d09"
       ],
-      "force_id": "fallback-other-national-4",
-      "label": "Ethiopia: notable developments",
-      "scope": "national"
+      "force_id": "fallback-diplomacy-multi_country-3",
+      "label": "Diplomatic movement across Kenya & Somalia",
+      "scope": "multi_country"
     },
     {
       "confidence": "constrained",
       "countries": [
-        "Djibouti"
+        "Sudan"
       ],
       "evidence_story_ids": [
-        "9b2354f3d6a7e71b"
+        "6dd3230585f81e9f"
       ],
-      "force_id": "fallback-other-localized-5",
-      "label": "Djibouti: notable developments",
+      "force_id": "fallback-conflict-localized-4",
+      "label": "Sudan: security developments",
+      "scope": "localized"
+    },
+    {
+      "confidence": "constrained",
+      "countries": [
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "1afc5047e9f40627"
+      ],
+      "force_id": "fallback-climate-localized-5",
+      "label": "Somalia: climate and resource pressure",
       "scope": "localized"
     }
   ],
-  "generated_at": "2026-07-24T09:48:31Z",
+  "generated_at": "2026-07-24T10:52:49Z",
   "image_model_alias": "openai/gpt-image-2 (oauth)",
   "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
   "motifs_used": [
-    "fracture_line"
+    "current_lines"
   ],
   "published_at": null,
   "revision": 0,
   "skill_version": "0.2.9",
-  "snapshot_hash": "7b01ba310856990525700761f4d65ee05e4b8ae87c74013d9918ae6d3ba5e3ef",
+  "snapshot_hash": "d22f93c8e633680b5a81ec7c917c59cfc27353a55752b517df2b72adfa07ac9b",
   "text_model_alias": "openai/gpt-5.6-sol (oauth)",
   "theme_source": "deterministic_fallback",
   "visual_source": "cloud"
