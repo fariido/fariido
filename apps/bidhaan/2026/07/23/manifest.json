@@ -1,0 +1,96 @@
+{
+  "coverage_summary": {
+    "countries_represented": [
+      "Djibouti",
+      "Ethiopia",
+      "Kenya",
+      "Somalia",
+      "Sudan"
+    ],
+    "editorial_shortage_notes": [
+      "Ethiopia: all five usable candidates came from a single official outlet, the Ethiopian News Agency (ENA). The Reporter Ethiopia's feed failed with malformed XML/RSS, and Addis Fortune returned zero current usable articles despite a healthy doctor check earlier \u2014 no independent Ethiopian source confirmed any story today. Two additional ENA items framed as opinion/propaganda attacking Egypt over the Nile dispute were excluded as commentary rather than news. Sudan: all five candidates came from a single independent outlet, Dabanga; Ayin Network returned zero usable current articles in this collection window. Djibouti: one configured source failed with \"no URLs configured,\" and another returned zero usable current articles; coverage still met quota from Radio T\u00e9l\u00e9vision de Djibouti, Agence Djiboutienne d'Information and La Nation."
+    ],
+    "missing_countries": [],
+    "mode": "standard",
+    "usable_story_count": 25
+  },
+  "date": "2026-07-23",
+  "evidence_mode": "standard",
+  "force_summaries": [
+    {
+      "confidence": "high",
+      "countries": [
+        "Kenya",
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "66f23eadae606a58",
+        "e90b0f79789a9352",
+        "118d55745f05f80d"
+      ],
+      "force_id": "contested_process",
+      "label": "Contested institutional pathways",
+      "scope": "multi_country"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Ethiopia",
+        "Somalia",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "77827f3d95c69ee0",
+        "c0606379c66c2e7d",
+        "860e8dea8837f5d8"
+      ],
+      "force_id": "external_partnerships",
+      "label": "Layered external partnerships around the Horn and Red Sea",
+      "scope": "regional"
+    },
+    {
+      "confidence": "high",
+      "countries": [
+        "Djibouti",
+        "Ethiopia",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "6d86fbe6dd39e266",
+        "d1a1d2a1a6bda48a",
+        "efc5fc89354857d5",
+        "755382b0f88f345d"
+      ],
+      "force_id": "health_capacity",
+      "label": "Health capacity between financing and emergency pressure",
+      "scope": "regional"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Djibouti",
+        "Ethiopia"
+      ],
+      "evidence_story_ids": [
+        "56dcbf6f8ce6bbbd",
+        "e7e79d8e7063143d"
+      ],
+      "force_id": "connected_infrastructure",
+      "label": "Corridors and cold chains as connective infrastructure",
+      "scope": "regional"
+    }
+  ],
+  "generated_at": "2026-07-23T19:14:05Z",
+  "image_model_alias": "openai/gpt-image-2 (oauth)",
+  "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
+  "motifs_used": [
+    "anchor_form"
+  ],
+  "published_at": null,
+  "revision": 0,
+  "skill_version": "0.2.7",
+  "snapshot_hash": "9e91f9a87b63ce334223df42c15bc5487e1950b659843612b230a0e63d8bd917",
+  "text_model_alias": "openai/gpt-5.6-sol (oauth)",
+  "theme_source": "model",
+  "visual_source": "cloud"
+}
