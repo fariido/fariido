@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-  <title>Bidhaan — Waaberi's daily visual allegory</title>
+  <title>Bidhaan: Waaberi's daily visual allegory</title>
   <link>https://fariido.pages.dev/apps/bidhaan/</link>
   <description>Bidhaan's automated daily editorial artwork archive.</description>
   <item>
-    <title>Contested institutional pathways</title>
-    <link>https://fariido.pages.dev/apps/bidhaan/2026/07/23/</link>
-    <guid isPermaLink="true">https://fariido.pages.dev/apps/bidhaan/2026/07/23/</guid>
-    <pubDate>Thu, 23 Jul 2026 00:00:00 +0300</pubDate>
-  </item>
-  <item>
-    <title>Dialogue and coalition bargaining within formal politics</title>
-    <link>https://fariido.pages.dev/apps/bidhaan/2026/07/22/</link>
-    <guid isPermaLink="true">https://fariido.pages.dev/apps/bidhaan/2026/07/22/</guid>
-    <pubDate>Wed, 22 Jul 2026 00:00:00 +0300</pubDate>
-  </item>
-  <item>
-    <title>Negotiated space around contested public questions</title>
-    <link>https://fariido.pages.dev/apps/bidhaan/2026/07/21/</link>
-    <guid isPermaLink="true">https://fariido.pages.dev/apps/bidhaan/2026/07/21/</guid>
-    <pubDate>Tue, 21 Jul 2026 00:00:00 +0300</pubDate>
-  </item>
-  <item>
-    <title>Commercial gateways under negotiated pressure</title>
-    <link>https://fariido.pages.dev/apps/bidhaan/2026/07/20/</link>
-    <guid isPermaLink="true">https://fariido.pages.dev/apps/bidhaan/2026/07/20/</guid>
-    <pubDate>Mon, 20 Jul 2026 00:00:00 +0300</pubDate>
+    <title>Cross-border developments across Djibouti &amp; Ethiopia &amp; Kenya &amp; Somalia &amp; Sudan</title>
+    <link>https://fariido.pages.dev/apps/bidhaan/2026/07/19/</link>
+    <guid isPermaLink="true">https://fariido.pages.dev/apps/bidhaan/2026/07/19/</guid>
+    <pubDate>Sun, 19 Jul 2026 00:00:00 +0300</pubDate>
   </item>
 </channel>
 </rss>
