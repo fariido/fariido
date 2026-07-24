@@ -8,99 +8,93 @@
       "Sudan"
     ],
     "editorial_shortage_notes": [
-      "Full coverage today."
+      "Sudan returned only 1 usable candidate against the 5-story editorial target. Of Sudan's four configured sources, three came back quiet: Atar Network (WARNING, retrieval and parsing succeeded but zero current usable articles), Dabanga (WARNING, same), and The New Humanitarian (WARNING, same). Only Ayin Network produced a usable, current item. This reflects a genuinely thin news day across Sudan's monitored outlets rather than a collection failure, all four sources returned HTTP 200 and were successfully parsed."
     ],
     "missing_countries": [],
     "mode": "standard",
-    "usable_story_count": 11
+    "usable_story_count": 18
   },
   "date": "2026-07-19",
   "evidence_mode": "standard",
   "force_summaries": [
     {
-      "confidence": "moderate",
-      "countries": [
-        "Djibouti",
-        "Ethiopia",
-        "Kenya",
-        "Somalia"
-      ],
-      "evidence_story_ids": [
-        "bd5165904a0d0628",
-        "cff215e66b1e4897",
-        "7f28c8f82fc0eb6f",
-        "ff52c4005d7326fb"
-      ],
-      "force_id": "fallback-government-regional-1",
-      "label": "Institutional pressure across Djibouti & Ethiopia & Kenya & Somalia",
-      "scope": "regional"
-    },
-    {
-      "confidence": "moderate",
+      "confidence": "high",
       "countries": [
         "Ethiopia",
         "Kenya",
         "Somalia"
       ],
       "evidence_story_ids": [
-        "c20666bfbf6751b2",
-        "6bb063f6334fd929",
-        "ddc57ee9a7eae6ba"
+        "acfe568d1df8a7ea",
+        "c220690ba10b9472",
+        "6f1b86cb7dc866cd",
+        "0979f4091e4b4910"
       ],
-      "force_id": "fallback-other-regional-2",
-      "label": "Cross-border developments across Ethiopia & Kenya & Somalia",
+      "force_id": "institutional-boundaries",
+      "label": "Political participation tested within formal institutions",
       "scope": "regional"
     },
     {
-      "confidence": "constrained",
+      "confidence": "moderate",
       "countries": [
-        "Kenya",
-        "Somalia"
+        "Ethiopia",
+        "Kenya"
       ],
       "evidence_story_ids": [
-        "46c02d77840a469c",
-        "05b0022d751b4d09"
+        "dbd5ef4f9679374a",
+        "fd620bb68f7773ef",
+        "11484771adfe87f6"
       ],
-      "force_id": "fallback-diplomacy-multi_country-3",
-      "label": "Diplomatic movement across Kenya & Somalia",
+      "force_id": "financial-weight",
+      "label": "Large financial scales press against institutional capacity",
       "scope": "multi_country"
     },
     {
-      "confidence": "constrained",
+      "confidence": "high",
       "countries": [
+        "Djibouti",
+        "Ethiopia",
+        "Somalia",
         "Sudan"
       ],
       "evidence_story_ids": [
-        "6dd3230585f81e9f"
+        "2d243ab1f12e8a1d",
+        "30f8994f224cb428",
+        "1f963c784a01fa13",
+        "a0593df9c13dfa0c"
       ],
-      "force_id": "fallback-conflict-localized-4",
-      "label": "Sudan: security developments",
-      "scope": "localized"
+      "force_id": "essential-networks",
+      "label": "Essential gateways and service networks under uneven strain",
+      "scope": "regional"
     },
     {
-      "confidence": "constrained",
+      "confidence": "moderate",
       "countries": [
+        "Djibouti",
+        "Kenya",
         "Somalia"
       ],
       "evidence_story_ids": [
-        "1afc5047e9f40627"
+        "abc1860fd8c68f1e",
+        "80692429208cc758",
+        "c54cf6607cff4a03"
       ],
-      "force_id": "fallback-climate-localized-5",
-      "label": "Somalia: climate and resource pressure",
-      "scope": "localized"
+      "force_id": "security-civic-space",
+      "label": "Security partnerships beside civic protection concerns",
+      "scope": "regional"
     }
   ],
-  "generated_at": "2026-07-24T10:56:28Z",
+  "generated_at": "2026-07-24T11:04:27Z",
   "image_model_alias": "openai/gpt-image-2 (oauth)",
   "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
   "motifs_used": [
-    "bridge"
+    "woven_threshold"
   ],
   "published_at": null,
   "revision": 0,
   "skill_version": "0.2.9",
-  "snapshot_hash": "2373f41a002c314608a3071603c7ad864703b0211dce87dc510e7ac1cab24f33",
+  "snapshot_hash": "8ef1f5ef27e700fdc9248e113ab722810bf6e5f7ab907ce5032d94924cb38143",
   "text_model_alias": "openai/gpt-5.6-sol (oauth)",
-  "theme_source": "deterministic_fallback",
+  "theme_source": "model",
   "visual_source": "cloud"
 }
