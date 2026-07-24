@@ -1,0 +1,111 @@
+{
+  "coverage_summary": {
+    "countries_represented": [
+      "Djibouti",
+      "Ethiopia",
+      "Kenya",
+      "Somalia",
+      "Sudan"
+    ],
+    "editorial_shortage_notes": [],
+    "missing_countries": [],
+    "mode": "standard",
+    "usable_story_count": 24
+  },
+  "date": "2026-07-22",
+  "evidence_mode": "standard",
+  "force_summaries": [
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Ethiopia",
+        "Kenya",
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "8a76679dca8bab5a",
+        "4da1697ff29ae91f",
+        "3183ba712148d466",
+        "f52c54843d02d981"
+      ],
+      "force_id": "dialogue_bargaining",
+      "label": "Dialogue and coalition bargaining within formal politics",
+      "scope": "multi_country"
+    },
+    {
+      "confidence": "high",
+      "countries": [
+        "Kenya"
+      ],
+      "evidence_story_ids": [
+        "2d502467dd9547b8",
+        "1d81e7acec70bf38"
+      ],
+      "force_id": "protest_protection",
+      "label": "Civic protection beside security authority",
+      "scope": "national"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Ethiopia",
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "af9fa61fa8dc24d9",
+        "01d73b952c4c9ba0",
+        "34ee3d3bb32141ef"
+      ],
+      "force_id": "regional_coordination",
+      "label": "Layered regional coordination around conflict and security",
+      "scope": "regional"
+    },
+    {
+      "confidence": "high",
+      "countries": [
+        "Djibouti",
+        "Somalia",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "041064924527bdc1",
+        "1f610e6cd44bec6c",
+        "6e778d0e4fdc62f3",
+        "86dde939c601e812",
+        "affa0eaaf1d00f3c"
+      ],
+      "force_id": "livelihood_pressure",
+      "label": "Livelihoods under loss, price, displacement, and aid pressure",
+      "scope": "multi_country"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Djibouti",
+        "Kenya",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "36840ebb860eb32d",
+        "c584db56d2de9481",
+        "90b830b894c59b30"
+      ],
+      "force_id": "finance_channels",
+      "label": "Financial access, oversight, and institutional fragmentation",
+      "scope": "multi_country"
+    }
+  ],
+  "generated_at": "2026-07-23T19:10:30Z",
+  "image_model_alias": "openai/gpt-image-2 (oauth)",
+  "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
+  "motifs_used": [
+    "lattice_screen"
+  ],
+  "published_at": null,
+  "revision": 0,
+  "skill_version": "0.2.7",
+  "snapshot_hash": "e1fd6e441d5e1aa577f3bc17a860c91fd8c0d8add249ee981755298417dc1728",
+  "text_model_alias": "openai/gpt-5.6-sol (oauth)",
+  "theme_source": "model",
+  "visual_source": "cloud"
+}
