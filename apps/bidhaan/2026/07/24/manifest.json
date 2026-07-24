@@ -1,0 +1,111 @@
+{
+  "coverage_summary": {
+    "countries_represented": [
+      "Djibouti",
+      "Ethiopia",
+      "Kenya",
+      "Somalia",
+      "Sudan"
+    ],
+    "editorial_shortage_notes": [],
+    "missing_countries": [],
+    "mode": "standard",
+    "usable_story_count": 25
+  },
+  "date": "2026-07-24",
+  "evidence_mode": "standard",
+  "force_summaries": [
+    {
+      "confidence": "high",
+      "countries": [
+        "Djibouti",
+        "Ethiopia",
+        "Kenya",
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "2443f8ae0274f733",
+        "d075583e372eefbd",
+        "c08467aae6c05320",
+        "562e30da922a7157"
+      ],
+      "force_id": "red-sea-pressure",
+      "label": "Red Sea corridor pressure and diplomatic alignment",
+      "scope": "regional"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Kenya",
+        "Somalia"
+      ],
+      "evidence_story_ids": [
+        "453e0e8d87d737f8",
+        "d402244e42382783",
+        "17eb9ca5a2af65d9"
+      ],
+      "force_id": "political-contingencies",
+      "label": "Political timetables and contingency planning",
+      "scope": "multi_country"
+    },
+    {
+      "confidence": "moderate",
+      "countries": [
+        "Djibouti",
+        "Ethiopia",
+        "Kenya"
+      ],
+      "evidence_story_ids": [
+        "9cd71e990daec2cb",
+        "9a2f59e679aeaeab",
+        "75d7ab0387e09bc0",
+        "18735f19e0cd016f"
+      ],
+      "force_id": "capacity-and-repair",
+      "label": "Public systems between ambition, oversight and repair",
+      "scope": "multi_country"
+    },
+    {
+      "confidence": "high",
+      "countries": [
+        "Kenya",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "77337125cc9869b1",
+        "d075583e372eefbd",
+        "7f7c22361d2349b6"
+      ],
+      "force_id": "livelihood-compression",
+      "label": "Livelihoods compressed by prices and production inputs",
+      "scope": "multi_country"
+    },
+    {
+      "confidence": "high",
+      "countries": [
+        "Kenya",
+        "Sudan"
+      ],
+      "evidence_story_ids": [
+        "463190bb4682d3d2",
+        "bd66a6e571bbf4f1"
+      ],
+      "force_id": "legal-resolution",
+      "label": "Accountability through divergent legal pathways",
+      "scope": "multi_country"
+    }
+  ],
+  "generated_at": "2026-07-24T17:07:49Z",
+  "image_model_alias": "openai/gpt-image-2 (oauth)",
+  "license_statement": "Original editorial artwork and structured metadata \u00a9 Fariido. Automated, AI-assisted, non-documentary editorial interpretation; not for redistribution as news photography.",
+  "motifs_used": [
+    "threshold_stack"
+  ],
+  "published_at": null,
+  "revision": 0,
+  "skill_version": "0.2.9",
+  "snapshot_hash": "7f44404f627ff5099ba6c2e40ec38c7dda4a5ff0cf636ab155b9a975bafd392c",
+  "text_model_alias": "openai/gpt-5.6-sol (oauth)",
+  "theme_source": "model",
+  "visual_source": "cloud"
+}
